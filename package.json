@@ -1,0 +1,35 @@
+{
+  "name": "practice-pugstagram",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/walterxz/Practice-Pugstagram.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/walterxz/Practice-Pugstagram/issues"
+  },
+  "homepage": "https://github.com/walterxz/Practice-Pugstagram#readme",
+  "dependencies": {
+    "svelte": "^3.31.0"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^4.5.0",
+    "webpack": "^5.10.0",
+    "webpack-cli": "^4.2.0",
+    "wepack-cli": "0.0.1-security",
+    "@babel/core": "^7.12.9",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.12.7",
+    "babel-loader": "^8.2.2",
+    "svelte-loader": "^2.13.6",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
